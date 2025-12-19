@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.596)), url(https://avatars.mds.yandex.net/get-autoru-vos/11373141/712edc131845002f7a53d383ce607124/1200x900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    display: flex;
+    position: relative;
+    padding: 36px 0px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+}
+
+li a {
+    text-decoration: none;
+    color: #867979;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.container h1 {
+    font-size: 60px;
+    word-spacing: 25px;
+}
+
+.content p {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+#btn {
+    width: 150px;
+    height: 50px;
+    padding: 16px 0;
+    margin: 20px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+#btn:hover {
+
+    border-color: aqua;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transform: scale(1.2);
+    transform: all .5s;
+}
+
+li:hover {
+    transform: scale(1.05);
+    transform: all .5s;
+    }
+
+    li a:hover {
+        color: aqua;
+    }
+
+    /*<======================================================================> */
+    /* 2-Qism */
+    .card-section {
+        width: 100%;
+        height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://www.carscoops.com/wp-content/uploads/2019/10/401cb3db-lumma-bmw-x7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 12px;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://i.ytimg.com/vi/GOzWyJv1JE4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFIgXihlMA8=&amp;rs=AOn4CLBhpDDUrb77cw_GXVXV6Y_3wdf-Cw);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card-text{
+    width: 100%;
+    height: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.card-text p{
+    pad: 10px 24px;
+    text-align: center;
+    line-height: 2;
+    display: none;
+}
+.card-buttons{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card-buttons button{
+    width: 150px;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.card h1{
+    color: transparent;
+    text-align: center;
+}
+
+.card:hover{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)), url(https://i.ytimg.com/vi/ApN4KvjfqCE/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+      transition: all .9s;
+    transform: scale(1.02);
+}
+
+.card:hover .card-text p{
+    color: #fff;
+    transition: all .9s;    
+    display:inline;
+}
+
+.card:hover  h1{
+    display: block;
+    color:#fff;
+    transition: all .9s;
+    transform: scale(1.02);
+}
+
+.card:hover .card-buttons button {
+    border: 2px solid rgb(0, 255, 0);  
+    transform: scale(1.02);    
+    transition: all 0.5s;   
+}
+
+
+.card:hover {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)), url(https://i.ytimg.com/vi/ApN4KvjfqCE/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+      transition: all .9s;
+    transform: scale(1.02);
+}
+
+
+
+
+
+/* =============================================== */
+
+
+
+
+
+
+
+
+
+
+
+.card2{
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://rng-t.com/wp-content/uploads/2025/05/whatsapp-image-2021-02-08-at-18.15.05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card2-text{
+    width: 100%;
+    height: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.card2-text p{
+    pad: 10px 24px;
+    text-align: center;
+    line-height: 2;
+    display: none;
+}
+.card2-buttons{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card2-buttons button{
+    width: 150px;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.card2 h1{
+    color: transparent;
+    text-align: center;
+}
+
+.card2:hover{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)), url(https://a.d-cd.net/hP5XiXjZujIrifqmMItDu2H54rU-960.jpg);
+  background-size: cover;
+  background-position: center;
+      transition: all .9s;
+    transform: scale(1.02);
+}
+
+.card2:hover .card2-text p{
+    color: #fff;
+    transition: all .9s;    
+    display:inline;
+}
+
+.card2:hover  h1{
+    display: block;
+    color:#fff;
+    transition: all .9s;
+    transform: scale(1.02);
+}
+
+.card2:hover .card2-buttons button {
+    border: 2px solid   rgb(0, 255, 0);  
+    transform: scale(1.02);    
+    transition: all 0.5s;   
+}
+
+
+
+/* ======================================= */
+
+
+.card3{
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://files.hodoor.world/main/e9c90c46-5a97-4f8c-8b96-8cb05bcea893.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card3-text{
+    width: 100%;
+    height: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.card3-text p{
+    pad: 10px 24px;
+    text-align: center;
+    line-height: 2;
+    display: none;
+}
+.card3-buttons{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card3-buttons button{
+    width: 150px;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.card3 h1{
+    color: transparent;
+    text-align: center;
+}
+
+.card3:hover{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)), url(https://a.d-cd.net/qGAAAgLKi-A-1920.jpg);
+  background-size: cover;
+  background-position: center;
+      transition: all .9s;
+    transform: scale(1.02);
+}
+
+.card3:hover .card3-text p{
+    color: #fff;
+    transition: all .9s;    
+    display:inline;
+}
+
+.card3:hover  h1{
+    display: block;
+    color:#fff;
+    transition: all .9s;
+    transform: scale(1.02);
+}
+
+.card3:hover .card3-buttons button {
+    border: 2px solid rgb(0, 255, 0);  
+    transform: scale(1.02);    
+    transition: all 0.5s;   
+}
+
+
+
+/* ============================ */
+
+
+.card4{
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0, 0.5)), url(https://pic.rutubelist.ru/video/2025-01-27/29/7c/297c265c223c2d08168e4b515b18c6d8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card4-text{
+    width: 100%;
+    height: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.card4-text p{
+    pad: 10px 24px;
+    text-align: center;
+    line-height: 2;
+    display: none;
+}
+.card4-buttons{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card4-buttons button{
+    width: 150px;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.card4 h1{
+    color: transparent;
+    text-align: center;
+}
+
+.card4:hover{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)), url(https://cdn.bimmertoday.de/wp-content/uploads/2021/05/Daehler-BMW-X7-M50i-G07-Tuning-13-1024x684.jpg);
+  background-size: cover;
+  background-position: center;
+      transition: all .9s;
+    transform: scale(1.02);
+}
+
+.card4:hover .card4-text p{
+    color: #fff;
+    transition: all .9s;    
+    display:inline;
+}
+
+.card4:hover  h1{
+    display: block;
+    color:#fff;
+    transition: all .9s;
+    transform: scale(1.02);
+}
+
+.card4:hover .card4-buttons button {
+    border: 2px solid rgb(0, 255, 0);  
+    transform: scale(1.02);    
+    transition: all 0.5s;   
+}
